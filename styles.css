@@ -1,0 +1,33 @@
+#horizontalbar {
+    height: 50px;
+    width: 100px;
+    background-color: red;
+    position: absolute;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-name: moving;  
+    -webkit-animation-delay: 0s;
+    text-align: center;
+     padding-top: 15px;
+     font-size: 20px;
+    }
+    @-webkit-keyframes moving {
+    0% {
+        height: 50px;
+        width: 100px;
+        background-color: red;
+        top: 50%;
+    
+    }
+    50% {
+        width: 100%;
+        top: 50%;
+        background-color: red;
+        height: 50px;
+    }
+    100% {
+        width: 100px;
+        background-color: red;
+        height: 50px;
+    }
+    }
